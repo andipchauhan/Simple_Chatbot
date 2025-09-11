@@ -9,7 +9,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain.chains.question_answering import load_qa_chain
 from langchain_google_genai import GoogleGenerativeAI
 
-GEMINI_API_KEY = "YOUR_KEY_HERE"
+GEMINI_API_KEY = "YOUR_GEMINI_KEY_HERE"
 
 # Upload PDF
 st.header("My first chatbot")
